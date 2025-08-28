@@ -4,8 +4,6 @@ import pickle
 
 # Load trained model
 
-from pathlib import Path, PurePath
-import pickle
 
 from joblib import load
 model = load(".joblib")
