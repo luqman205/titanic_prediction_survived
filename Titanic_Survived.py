@@ -8,7 +8,8 @@ from pathlib import Path, PurePath
 import pickle
 
 from joblib import load
-model = load("titanic_model.joblib")
+model = load(".joblib")
+model = load("titanic_model_prediction.joblib")
 
 
 # --- Page config ---
